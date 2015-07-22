@@ -43,6 +43,10 @@ var secondCar = new Car("blue");
 
 var thirdCar = new Car("gold");
 
+var contentHolder = document.getElementById("content");
+
+contentHolder.innerHTML = JSON.stringify(firstCar);
+
 console.log("first car ", firstCar);
 console.log("second car ", secondCar);
 console.log("third car ", firstCar);
