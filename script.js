@@ -49,4 +49,4 @@ contentHolder.innerHTML = JSON.stringify(firstCar);
 
 console.log("first car ", firstCar);
 console.log("second car ", secondCar);
-console.log("third car ", firstCar);
+console.log("third car ", thirdCar);
